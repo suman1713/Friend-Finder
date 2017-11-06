@@ -1,7 +1,7 @@
 ## Friend-Finder
 This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
 
-###DEMO:
+## DEMO:
 ![alt text](https://github.com/suman1713/Friend-Finder/blob/master/app/public/img/friendfinder_demo.gif "Friend Finder Demo")
 
 The app has 10 questions to answer. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
@@ -19,7 +19,7 @@ The apiRoutes.js file should contain two routes:
 
 
 The application's data is stored inside of app/data/friends.js as an array of objects. Each of these objects roughly follows the format below.
-```javascript{
+```javascript {
   "name":"Suman",
   "photo":"https://assets.goodstatic.com/s3/magazine/others/meta/goodlogosquare.png",
   "scores":[
@@ -34,7 +34,8 @@ The application's data is stored inside of app/data/friends.js as an array of ob
       4,
       1
     ]
-}```
+} 
+```
 
 
 ## To determine the user's most compatible friend:
